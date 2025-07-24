@@ -1,0 +1,93 @@
+<link rel="stylesheet" href="style.css">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Badhon's Bookstore</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>📚 Badhon's Bookstore</h1>
+    <p>Buy your favorite books online</p>
+  </header>
+
+  <section class="book-list">
+
+    <div class="book">
+      <img src="https://via.placeholder.com/150" alt="Book 1">
+      <h2>Feluda Samagra</h2>
+      <p>৳ 350</p>
+      <a href="https://wa.me/8801845815662?text=I want to buy Feluda Samagra" class="buy-button">Buy</a>
+    </div>
+
+    <div class="book">
+      <img src="https://via.placeholder.com/150" alt="Book 2">
+      <h2>Himu by Humayun Ahmed</h2>
+      <p>৳ 300</p>
+      <a href="https://wa.me/8801845815662?text=I want to buy Himu" class="buy-button">Buy</a>
+    </div>
+
+    <!-- Add more books below in same format -->
+
+  </section>
+
+  <footer>
+    <p>© 2025 Badhon's Bookstore</p>
+  </footer>
+</body>
+</html>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  color: #333;
+  text-align: center;
+}
+
+header {
+  background: #ffcc00;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+.book-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.book {
+  background: white;
+  border-radius: 10px;
+  margin: 15px;
+  padding: 15px;
+  width: 200px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.book img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.buy-button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  background: black;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+footer {
+  background: #ddd;
+  padding: 10px;
+  font-size: 14px;
+}
